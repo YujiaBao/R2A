@@ -135,7 +135,7 @@ if __name__ == '__main__':
         '''
         Training R2A on labeled source and unlabeled target
         '''
-        dev_res, saved_path = train_utils.train(train_data_dict, dev_data_dict, model, args)
+        dev_res, saved_path, model = train_utils.train(train_data_dict, dev_data_dict, model, args)
 
         # saving the vocabulary
         if args.save:
@@ -175,7 +175,7 @@ if __name__ == '__main__':
         '''
         Train a classifier.
         '''
-        dev_res, saved_path = train_utils.train(train_data_dict, dev_data_dict, model, args)
+        dev_res, saved_path, model = train_utils.train(train_data_dict, dev_data_dict, model, args)
 
         # saving the vocabulary
         if args.save:

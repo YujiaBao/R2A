@@ -304,9 +304,9 @@ def train(train_data, dev_data, model, args):
             for attr, value in sorted(args.__dict__.items()):
                 f.write("{}={}\n".format(attr.upper(), value))
 
-        return dev_res, best_dir
+        return dev_res, best_dir, model
 
-    return dev_res, out_dir
+    return dev_res, out_dir, model
 
 def _get_mask(text_len, cuda):
     idxes = torch.arange(0, int(torch.max(text_len)), 

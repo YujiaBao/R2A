@@ -54,7 +54,7 @@ We provide the processed data (together with the machine-generated rationales) t
      | Beer look | 32,276 (beer0.train) | 6392 (beer0.dev)
      | Beer aroma | 28,984 (beer1.train) | 5,720 (beer1.dev)
      | Beer palate | 25,748 (beer2.train) | 4,994 (beer2.dev)
-     | Hotel location | 14,472 (hotel_Location.train) | 1,1813 (hotel_Location.dev) |
+     | Hotel location | 14,472 (hotel_Location.train) | 1,813 (hotel_Location.dev) |
      | Hotel cleanliness | 150,098 (hotel_Cleanliness.train) | 18,764 (hotel_Cleanliness.dev) |
      | Hotel service | 101,484 (hotel_Service.train) | 12,689 (hotel_Service.dev) |
      
